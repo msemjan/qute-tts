@@ -6,9 +6,9 @@ This is a simple script that adds a text-to-speech to Qutebrowser using a [user 
 
 **1. Install dependencies**
 
-You need Python 3, and Google Text To Speech [Python library](https://gtts.readthedocs.io/en/latest/index.html#) which can be easily installed using PIP:
+You need to have Python 3 installed, and Google Text To Speech [Python library](https://gtts.readthedocs.io/en/latest/index.html#). Dependencies can be easily installed using PIP:
 ```
-pip install gTTS
+pip install -r requirements.txt
 ```
 
 You also need some program that can play audio. I use `mpv`, so you may need to change `AUDIO_PLAYER` variable, if you want to use something else.
