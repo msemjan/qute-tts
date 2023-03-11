@@ -11,6 +11,8 @@ You need Python 3, and Google Text To Speech [Python library](https://gtts.readt
 pip install gTTS
 ```
 
+You also need some program that can play audio. I use `mpv`, so you may need to change `AUDIO_PLAYER` variable, if you want to use something else.
+
 **2. Clone this repo**
 
 ```
@@ -52,7 +54,7 @@ config.bind('xt', 'spawn --userscript qute-tts.py')
 
 After saving the file, you should be able to run the script by clicking `xt` in normal mode. 
 
-## Limitations
+## Limitations
 
 At the moment, the script will speak only English (UK). You can modify the script to speak a different local ['accent'](https://gtts.readthedocs.io/en/latest/module.html#localized-accents), if you want to. Just follow the link, and find the "Top-level domain" for the language you are interested in. Then change `tld` variable in the Python code. 
 
